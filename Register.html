@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Laundry Service System - Registration</title>
+	<link rel="stylesheet" type="text/css" href="olss registration.css">
+	<link rel="stylesheet" type="text/css" href="footerh.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<script src="olss registration.js"></script>
+</head>
+ <!--NAVIGATION BAR-->
+ <nav>
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+  <i class="fas fa-bars"></i>
+</label>
+	<div class="btn ">
+		<a href="../pageselect/registerSelector.html"><button class="button1" name="btn1 "><b>Register</b></button></a>
+		<a href="../pageselect/LoginSelector.html"><button class="button1" name="btn1 "><b>Login</b></button></a>
+	
+	</div>
+	<a  href="../Home/home.html"><img id="logo" src="IWTpLogo.jpg" height="100px" width="100px" alt="logo"></a>
+
+	<ul class="nav-ul">
+	  <li><a id="nav"  href="../Home/home.html">Home</a></li>
+	  <li><a id="nav" href="../Stars/AboutUs.php">Request Blood</a></li>
+	  <li><a id="nav" href="../Contact/php/send.php">About</a></li>
+	  <li><a id="nav" href="../Packages/Packages.html">Contact us</a></li>
+	  <li><a id="nav" href="https://edition.cnn.com/">FAQ</a></li>
+	  <li><a id="nav" href="https://www.google.com/">Search</a></li>
+  </ul>
+
+</nav>
+     <div class="container1"><br><br><br><br>
+     <h1>Register and Become Customer</h1>
+	</div>
+
+	<!--REGISTRATION FORM-->
+<body>
+	<div class="padam" >
+	<img class="image" alt="" src="dddd.jpg">
+</div>
+
+	<div class="container">
+		<h2> Registration</h2>
+		<form id="registration-form">
+			<label for="full-name">Full Name</label>
+			<input type="text" id="full-name" placeholder="enter name here" name="full-name" required>
+			
+			<label for="gender">Gender</label>
+            <select type="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            </select><br>
+
+	        <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required><br>
+
+	        <label for="address">Address:</label>
+            <textarea type="address" id="address" placeholder="enter your address here" required></textarea><br>
+
+			<label for="email">Email Address</label>
+			<input type="email" id="email" placeholder="please enter the email" name="email" required>
+
+			<label for="phone">Phone Number</label>
+			<input type="tel" id="phone" placeholder="enter your contact number" name="phone" required>
+
+			<label for="password">Password</label>
+			<input type="password" id="password" placeholder="create a password" name="password" required>
+
+			<label for="confirm-password">Confirm Password</label>
+			<input type="password" id="confirm-password"placeholder="re-enter the password" name="confirm-password" required>
+
+ 
+			<div class="accept-checkbox">
+				<input type="checkbox" id="accept" name="accept">
+				<label for="accept">I have read and agree to the terms and conditions</label>
+			</div>
+			
+    		<button type="submit" id="submit-btn">Register</button><br>
+
+			<p>Already have an account? <a href="#">Signin</a>.</p>
+			
+		</form>
+	</div>
+		
+</body>
+</html>
